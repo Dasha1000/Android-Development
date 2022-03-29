@@ -1,13 +1,10 @@
 package dev.software.evaluate
 
-
 //    PARSER RULES
 //    expression : plusMinus* EOF
 //    plusMinus: mulDiv ( ( '+' | '-' ) mulDiv )*
 //    mulDiv : factor ( ( '*' | '/' ) factor )*
 //    factor : NUMBER | '(' expression ')'
-
-
 
 fun main() {
     //val expression: String = "105 - 99 + 3* 5 /4 " //9.75
