@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_detail"
+    android:orientation="vertical"
+    android:background="@color/teal_background">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        style="@style/Widget.MaterialComponents.Toolbar.Primary"
+        android:layout_height="wrap_content"
+        app:title="About character"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        android:background="@color/teal_toolbar"/>
+
+        <ImageView
+            android:id="@+id/picture"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:adjustViewBounds="true"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            tools:ignore="contentDescription"
+            android:padding="20dp"/>
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Name"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/text_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Birthday"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:id="@+id/text_nick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical|center_horizontal"
+            tools:text="Nick"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+
+</LinearLayout>
